@@ -73,12 +73,12 @@ hr{
     cursor:pointer;
     transition: 0.5s;
     margin-bottom: 0;
+    width: 150px;
 }
 
 .box input[type= "submit"]:hover{
     background-color: #006777;
     border-color: #03ddff;
-    width: 150px;
     color:white;
 }
 
