@@ -34,6 +34,7 @@ body{
     border: 2px solid #1A535C;
     border-radius: 20px;
     background: none;
+    width: 250px;
     padding: 14px 10px;
     display: block;
     text-align: center;
@@ -44,7 +45,6 @@ body{
 }
 
 .box input[type="text"]:focus, .box input[type="password"]:focus{
-    width: 250px;
     border-color: #03ddff;
     background-color: #006777;
     color:white;
