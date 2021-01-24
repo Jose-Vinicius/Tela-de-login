@@ -59,7 +59,7 @@ hr{
     box-shadow: black;
 }
 
-.box input[type = "submit"]{
+.box button[type = "submit"]{
     display: flex;
     border:0;
     border: 2px solid #ffe66d;
@@ -76,7 +76,7 @@ hr{
     width: 150px;
 }
 
-.box input[type= "submit"]:hover{
+.box button[type= "submit"]:hover{
     background-color: #006777;
     border-color: #03ddff;
     color:white;
@@ -91,5 +91,10 @@ hr{
     color: black;
 }
 
-
+@media(max-width:750px){
+    .box{width: 80vw;
+        margin-top:-10vh;    
+    }
+}
+ 
 
